@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  redis:
+    host: 127.0.0.1
+    password:
+    database: 0
+    port: 7010
+    timeout: 3S
+
+logging:
+  level:
+    root: info
+  file:
+    path: redis-logs
